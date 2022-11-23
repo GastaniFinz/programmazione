@@ -1,0 +1,96 @@
+.tr {
+    border: 2px solid black;
+}
+
+.td {
+    border: 1px solid black ;
+}
+
+.tabella {
+    text-align: center;
+    width: 100%;
+}
+
+/* FORM */
+
+.formtot {
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+}
+
+.form{
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.contenitore {
+    border-top: 5px;
+    margin: 0 auto;
+    /* Questo comando serve a centrare il target della classe nello schermo */
+    margin-top: 20px;
+    width: 60%;
+    border-radius: 5px;
+    /* Spessore dei bordi del contenitore */
+    padding: 10px;
+    position: relative;
+    background-color: #dddddd;
+}
+
+.contenitoredb {
+    margin: 0 auto;
+    /* Questo comando serve a centrare il target della classe nello schermo */
+    margin-top: 20px;
+    width: 60%;
+    border-radius: 5px;
+    /* Spessore dei bordi del contenitore */
+    padding: 10px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+input {
+    width: 20%;
+    padding: 5px;
+    /* padding */
+    border: 1px solid black;
+    /* Linea Bordo Grigia */
+    box-sizing: border-box;
+    /* forma del box di input */
+    border-radius: 4px;
+    /* la casella input ha i bordi tondi */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical;
+    /* Permette il resize dell'area di testo dell'input in verticale (not orizzontale) */
+}
+
+.form {
+    background-color: rgba(245, 222, 179, 0.7 );
+    
+}
+
+.btn {
+    text-align: center;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 1px;
+    margin-right: 1px;
+    width: 180px;
+    position: relative;
+    background-color: #9c04aa;
+
+}
+
+.btn:hover {
+    background-color: #45a049;
+
+}
+    

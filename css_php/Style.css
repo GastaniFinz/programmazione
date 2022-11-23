@@ -1,0 +1,50 @@
+body {
+    background-color: aquamarine;
+    font-family: sans-serif;
+
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+h2{
+    padding: 10px;
+}
+
+#headline{
+    padding: 10px;
+    font-size: larger;
+    background-color: salmon;
+    font-style: oblique;
+}
+
+
+#sxcol{
+    width: 40%;
+    padding: 10px;
+    float: left;
+    border-right: 2px solid;
+    border-color: black;
+    border-width: 1px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#dxcol{
+    width: 40%;
+    padding: 10px;
+    float: right;
+    border-left: 2px solid;
+    border-color: black;
+    border-width: 1px;
+    display: flex;
+    justify-content: end;
+}
+
+#colonne{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+}

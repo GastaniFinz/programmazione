@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <h1>Form</h1>
+</head>
+<body>
+ <form action="Form.php" method = "post" target="_blank" >
+    <input type="hidden" id="tipoform" name="tipoform" value="1">
+    <label for="fname">Nome:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Cognome:</label><br>
+    <input type="text" name="lname" id="lname"><br>
+    <label for="birth">Data di nascita:</label><br>
+    <input type="date" name="birth" id="birth"><br>
+    <label for="matricola">Numero matricola:</label><br>
+    <input type="text" name="matricola" id="matricola"><br><br><br>
+    <label for="privacy">Acconsenti al trattamento dei dati</label>
+    <input type="checkbox" name="privacy" id="privacy"><br>
+    <label for="pass">Password (Minimo 8 caratteri)</label>
+    <input type="password" name="pass" id="password" minlength="8" required> <br>
+    <input type="submit" value = "Submit">
+    </form>
+
+    <br><br><br>
+
+    <form action="Form.php" method = "post" target="_blank">
+        <input type="hidden" id="tipoform" name="tipoform" value="2">
+        <label for="credit">Carta di credito</label><br>
+        <input type="credit" id="credit" name="credit" minlength="16" maxlength="16" required><br>
+        <input type="submit" value = "Submit">
+ </form>   
+</body>
+</html>

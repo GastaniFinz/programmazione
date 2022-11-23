@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#mission
+{
+    height: 700px;
+    background-color: azure;
+}
+
+#news
+{
+    height: 700px;
+    background-color: orange;
+}
+
+#mission #content
+{
+    height: 350px;
+    background-color: red;
+}
+
+#mission #products
+{
+    height: 350px;
+    background-color: blue;
+}
+
+#mission #contact-us
+{
+    height: auto;
+    background-color: blanchedalmond;
+}
+
+.navbar-brand
+{
+    max-height: 80px;
+    padding: 2px;
+    margin: 2px;
+}
+
+.navbar
+{
+    background-color: #696969;
+}
+
+.sm-img-container
+{
+    height: 450px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.6s linear;
+    -webkit-transition: all 0.6s linear;
+    -moz-transition: all 0.6s linear;
+    -ms-transition: all 0.6s linear;
+    -o-transition: all 0.6s linear;
+}
+
+.sm-img-container:hover
+{
+    transform: scale(120%);
+    -webkit-transform: scale(120%);
+    -moz-transform: scale(120%);
+    -ms-transform: scale(120%);
+    -o-transform: scale(120%);
+}
+
+h5 
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p
+{
+    font-family: 'Montserrat', sans-serif;
+}

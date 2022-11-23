@@ -1,0 +1,210 @@
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+img {
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
+    background-color: pink;
+}
+
+/* SCHEDA PRODOTTO */
+.scheda-prodotto {
+    width: 30%;
+    height: 400px;
+    display: inline-block;
+
+    background-color: aqua;
+}
+
+.prodotto{
+    position: relative;
+
+}
+
+.info-prodotto {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    color: white;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.info-prodotto .discount {
+    background-color: red;
+    padding: 5px;
+}
+
+.info-prodotto .eco{
+    background-color: green;
+    padding: 5px;
+}
+
+/* CUORE */
+
+.heart {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    
+}
+
+.img-heart {
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+.img-heart:hover {
+    color: red;
+    cursor: pointer;
+}
+
+/* DESCRIZIONE PRODOTTO */
+
+.descrizione {
+    text-align: left;
+}
+
+.brand {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.titolo {
+    font-weight: 800;
+}
+
+.discount-price {
+    color: red;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.price {
+    font-size: 15px;
+}
+
+/* HOVER IMMAGINI */
+
+.immagine1 {
+    display: block;
+}
+
+.immagine2 {
+    display: none;
+}
+
+.prodotto:hover .immagine1 {
+    display: none;
+}
+
+.prodotto:hover .immagine2 {
+    display: block;
+}
+
+
+
+.immagine3 {
+    display: block;
+}
+
+.immagine4 {
+    display: none;
+}
+
+.prodotto:hover .immagine3 {
+    display: none;
+}
+
+.prodotto:hover .immagine4 {
+    display: block;
+}
+
+
+
+.immagine5 {
+    display: block;
+}
+
+.immagine6 {
+    display: none;
+}
+
+.prodotto:hover .immagine5 {
+    display: none;
+}
+
+.prodotto:hover .immagine6 {
+    display: block;
+}
+
+
+
+
+.immagine7 {
+    display: block;
+}
+
+.immagine8 {
+    display: none;
+}
+
+.prodotto:hover .immagine7 {
+    display: none;
+}
+
+.prodotto:hover .immagine8 {
+    display: block;
+}
+
+
+
+.immagine9 {
+    display: block;
+}
+
+.immagine10 {
+    display: none;
+}
+
+.prodotto:hover .immagine9 {
+    display: none;
+}
+
+.prodotto:hover .immagine10 {
+    display: block;
+}
+
+
+
+
+.immagine11 {
+    display: block;
+}
+
+.immagine12 {
+    display: none;
+}
+
+.prodotto:hover .immagine11 {
+    display: none;
+}
+
+.prodotto:hover .immagine12 {
+    display: block;
+}
