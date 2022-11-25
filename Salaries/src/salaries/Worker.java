@@ -7,14 +7,14 @@ public abstract class Worker {
 	protected String firstName;
 	protected String lastName;
 
-	public Worker (String firstName, String lastName) throws Exception{
+	public Worker (String firstName, String lastName) throws RuntimeException{
 
 		if(firstName == null || lastName == null) {
-			throw new Exception("Il campo non può essere nullo"); // metodo isEmpty per la stringa è meglio
+			throw new RuntimeException("Il campo non può essere nullo"); // metodo isEmpty per la stringa è meglio
 		}
 
 		if (firstName.equals("") || lastName.equals("")){
-			throw new Exception("Il campo non può essere vuoto");
+			throw new RuntimeException("Il campo non può essere vuoto");
 		}
 
 		this.firstName = firstName;
